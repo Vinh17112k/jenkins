@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class JenkinController {
     @GetMapping("docker")
     public String buildDocker(){
-        return "build docker CI/CD";
+        return "build docker CI/CD pipeline";
     }
 }
